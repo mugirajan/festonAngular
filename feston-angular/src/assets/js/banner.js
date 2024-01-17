@@ -31,7 +31,7 @@
             '<span class="slick-arrow-prev"><i class="fa fa-angle-up" aria-hidden="true"></i></span>',
           appendArrows: $(".main-slide-navigation"),
           appendDots: $(".main-slide-navigation"),
-          autoplay: true,
+          autoplay: false,
           autoplaySpeed: 4500,
           responsive: [
             {
@@ -47,3 +47,5 @@
     });
   })(jQuery);
   
+
+ 

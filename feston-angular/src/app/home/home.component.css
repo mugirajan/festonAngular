@@ -22306,7 +22306,7 @@ width:70%;
   .main-slide-navigation .slick-dots li:before {
     content: "";
     position: absolute;
-    top: 50%;
+    top: 105%;
     left: 100%;
     width: 0;
     height: 2px;
@@ -22348,7 +22348,7 @@ width:70%;
     color: #192330;
   }
   .main-slide-navigation .slick-dots li button:before {
-    content: "0";
+    display:none !important;
   }
   .main-slide-navigation .slick-arrow {
     font-size: 24px;
@@ -22601,6 +22601,7 @@ width:70%;
     }
     .main-slide-navigation .slick-dots li button {
       font-size: 18px;
+      line-height:1.5;
       padding: 10px;
     }
     .main-slider .main-slide .main-slide-info .title {
